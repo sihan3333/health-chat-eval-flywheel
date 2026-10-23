@@ -1,0 +1,1947 @@
+{
+ "meta": {
+  "note": "示例数据：随机生成，只用于演示看板，不是任何模型的真实结果",
+  "systems": [
+   "基线v1",
+   "优化v2"
+  ]
+ },
+ "labels": [
+  {
+   "case_id": "A01",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L4",
+   "must_hit": [
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "A01",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L4",
+   "must_hit": [
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "A02",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L3",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "A02",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L3",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "A03",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T1"
+   ],
+   "cause": "R3",
+   "note": ""
+  },
+  {
+   "case_id": "A03",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L4",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "A04",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L0",
+   "must_hit": [
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "A04",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L1",
+   "must_hit": [
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "A05",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "A05",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "A06",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L3",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "A06",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L4",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "B01",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L1",
+   "must_hit": [
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "B01",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L1",
+   "must_hit": [
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "B02",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L1",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "B02",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L1",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "B03",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "B03",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "B04",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "B04",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "B05",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    0,
+    1,
+    0
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T2",
+    "T5"
+   ],
+   "cause": "R3",
+   "note": ""
+  },
+  {
+   "case_id": "B05",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L3",
+   "must_hit": [
+    1,
+    1,
+    0
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T2",
+    "T5",
+    "T8"
+   ],
+   "cause": "R3",
+   "note": ""
+  },
+  {
+   "case_id": "B06",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    0,
+    0
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T2",
+    "T5"
+   ],
+   "cause": "R3",
+   "note": ""
+  },
+  {
+   "case_id": "B06",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L0",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "C01",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L4",
+   "must_hit": [
+    1,
+    0
+   ],
+   "must_not_hit": [
+    0,
+    1
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T2",
+    "T3",
+    "T5"
+   ],
+   "cause": "R3",
+   "note": ""
+  },
+  {
+   "case_id": "C01",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L4",
+   "must_hit": [
+    1,
+    0
+   ],
+   "must_not_hit": [
+    0,
+    1
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T2",
+    "T3",
+    "T5"
+   ],
+   "cause": "R3",
+   "note": ""
+  },
+  {
+   "case_id": "C02",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L1",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "C02",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "C03",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "C03",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "C04",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L3",
+   "must_hit": [
+    0,
+    0,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T2",
+    "T5"
+   ],
+   "cause": "R3",
+   "note": ""
+  },
+  {
+   "case_id": "C04",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "C05",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "C05",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "C06",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L1",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "C06",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "D01",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L0",
+   "must_hit": [
+    1,
+    1,
+    0
+   ],
+   "must_not_hit": [
+    1
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T1",
+    "T3",
+    "T5"
+   ],
+   "cause": "R3",
+   "note": ""
+  },
+  {
+   "case_id": "D01",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L1",
+   "must_hit": [
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "D02",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "D02",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "D03",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L3",
+   "must_hit": [
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "D03",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1,
+    0
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T1",
+    "T5"
+   ],
+   "cause": "R3",
+   "note": ""
+  },
+  {
+   "case_id": "D04",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L3",
+   "must_hit": [
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "D04",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L3",
+   "must_hit": [
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "D05",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L4",
+   "must_hit": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T2",
+    "T5"
+   ],
+   "cause": "R3",
+   "note": ""
+  },
+  {
+   "case_id": "D05",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "D06",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L0",
+   "must_hit": [
+    0,
+    1
+   ],
+   "must_not_hit": [
+    1
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T3",
+    "T5"
+   ],
+   "cause": "R1",
+   "note": ""
+  },
+  {
+   "case_id": "D06",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L0",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "E01",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    0,
+    0,
+    1
+   ],
+   "must_not_hit": [
+    1,
+    0
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T1",
+    "T7",
+    "T5"
+   ],
+   "cause": "R3",
+   "note": ""
+  },
+  {
+   "case_id": "E01",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L4",
+   "must_hit": [
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "E02",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L3",
+   "must_hit": [
+    0,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    1
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T7",
+    "T5"
+   ],
+   "cause": "R3",
+   "note": ""
+  },
+  {
+   "case_id": "E02",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L3",
+   "must_hit": [
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "E03",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L1",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "E03",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L1",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "E04",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L3",
+   "must_hit": [
+    0,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T2",
+    "T5"
+   ],
+   "cause": "R3",
+   "note": ""
+  },
+  {
+   "case_id": "E04",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "E05",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T1"
+   ],
+   "cause": "R3",
+   "note": ""
+  },
+  {
+   "case_id": "E05",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    0,
+    1,
+    0
+   ],
+   "must_not_hit": [
+    1
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T1",
+    "T7",
+    "T5"
+   ],
+   "cause": "R3",
+   "note": ""
+  },
+  {
+   "case_id": "E06",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L1",
+   "must_hit": [
+    0,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T2",
+    "T5"
+   ],
+   "cause": "R3",
+   "note": ""
+  },
+  {
+   "case_id": "E06",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L0",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    1
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T7"
+   ],
+   "cause": "R3",
+   "note": ""
+  },
+  {
+   "case_id": "F01",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "F01",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    0
+   ],
+   "must_not_hit": [
+    1
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T3",
+    "T6"
+   ],
+   "cause": "R1",
+   "note": ""
+  },
+  {
+   "case_id": "F02",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L1",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0,
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "F02",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L1",
+   "must_hit": [
+    0,
+    1
+   ],
+   "must_not_hit": [
+    1,
+    0
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T3",
+    "T6",
+    "T8"
+   ],
+   "cause": "R1",
+   "note": ""
+  },
+  {
+   "case_id": "F03",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "F03",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    1
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T3"
+   ],
+   "cause": "R1",
+   "note": ""
+  },
+  {
+   "case_id": "F04",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L0",
+   "must_hit": [
+    0,
+    1
+   ],
+   "must_not_hit": [
+    1
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T3",
+    "T6"
+   ],
+   "cause": "R1",
+   "note": ""
+  },
+  {
+   "case_id": "F04",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L1",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "F05",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L1",
+   "must_hit": [
+    0,
+    0
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T6"
+   ],
+   "cause": "R2",
+   "note": ""
+  },
+  {
+   "case_id": "F05",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L1",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "F06",
+   "system": "基线v1",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L2",
+   "must_hit": [
+    1,
+    1
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "PASS",
+   "tags": [],
+   "cause": "",
+   "note": ""
+  },
+  {
+   "case_id": "F06",
+   "system": "优化v2",
+   "answer": "（示例数据，无回答原文）",
+   "level_given": "L3",
+   "must_hit": [
+    1,
+    0
+   ],
+   "must_not_hit": [
+    0
+   ],
+   "verdict": "FAIL",
+   "tags": [
+    "T2",
+    "T6"
+   ],
+   "cause": "R3",
+   "note": ""
+  }
+ ],
+ "gsb": [
+  {
+   "case_id": "A01",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "S"
+  },
+  {
+   "case_id": "A02",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "S"
+  },
+  {
+   "case_id": "A03",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "G"
+  },
+  {
+   "case_id": "A04",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "S"
+  },
+  {
+   "case_id": "A05",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "S"
+  },
+  {
+   "case_id": "A06",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "S"
+  },
+  {
+   "case_id": "B01",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "S"
+  },
+  {
+   "case_id": "B02",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "S"
+  },
+  {
+   "case_id": "B03",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "S"
+  },
+  {
+   "case_id": "B04",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "S"
+  },
+  {
+   "case_id": "B05",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "G"
+  },
+  {
+   "case_id": "B06",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "G"
+  },
+  {
+   "case_id": "C01",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "S"
+  },
+  {
+   "case_id": "C02",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "S"
+  },
+  {
+   "case_id": "C03",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "S"
+  },
+  {
+   "case_id": "C04",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "G"
+  },
+  {
+   "case_id": "C05",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "S"
+  },
+  {
+   "case_id": "C06",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "S"
+  },
+  {
+   "case_id": "D01",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "G"
+  },
+  {
+   "case_id": "D02",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "S"
+  },
+  {
+   "case_id": "D03",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "B"
+  },
+  {
+   "case_id": "D04",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "S"
+  },
+  {
+   "case_id": "D05",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "G"
+  },
+  {
+   "case_id": "D06",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "G"
+  },
+  {
+   "case_id": "E01",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "G"
+  },
+  {
+   "case_id": "E02",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "G"
+  },
+  {
+   "case_id": "E03",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "S"
+  },
+  {
+   "case_id": "E04",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "G"
+  },
+  {
+   "case_id": "E05",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "B"
+  },
+  {
+   "case_id": "E06",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "B"
+  },
+  {
+   "case_id": "F01",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "B"
+  },
+  {
+   "case_id": "F02",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "B"
+  },
+  {
+   "case_id": "F03",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "B"
+  },
+  {
+   "case_id": "F04",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "G"
+  },
+  {
+   "case_id": "F05",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "G"
+  },
+  {
+   "case_id": "F06",
+   "a": "基线v1",
+   "b": "优化v2",
+   "result": "B"
+  }
+ ],
+ "judge": [
+  {
+   "case_id": "A01",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "A01",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "A02",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "A02",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "A03",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "A03",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "A04",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "A04",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "A05",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "A05",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "A06",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "A06",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "B01",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "B01",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "B02",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "B02",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "B03",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "B03",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "B04",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "B04",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "B05",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "B05",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "B06",
+   "system": "基线v1",
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "B06",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "C01",
+   "system": "基线v1",
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "C01",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "C02",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "C02",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "C03",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "C03",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "C04",
+   "system": "基线v1",
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "C04",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "C05",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "C05",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "C06",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "C06",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "D01",
+   "system": "基线v1",
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "D01",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "D02",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "D02",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "D03",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "D03",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "D04",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "D04",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "D05",
+   "system": "基线v1",
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "D05",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "D06",
+   "system": "基线v1",
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "D06",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "E01",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "E01",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "E02",
+   "system": "基线v1",
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "E02",
+   "system": "优化v2",
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "E03",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "E03",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "E04",
+   "system": "基线v1",
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "E04",
+   "system": "优化v2",
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "E05",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "E05",
+   "system": "优化v2",
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "E06",
+   "system": "基线v1",
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "E06",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "F01",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "F01",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "F02",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "F02",
+   "system": "优化v2",
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "F03",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "F03",
+   "system": "优化v2",
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "F04",
+   "system": "基线v1",
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "F04",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "F05",
+   "system": "基线v1",
+   "verdict": "FAIL"
+  },
+  {
+   "case_id": "F05",
+   "system": "优化v2",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "F06",
+   "system": "基线v1",
+   "verdict": "PASS"
+  },
+  {
+   "case_id": "F06",
+   "system": "优化v2",
+   "verdict": "FAIL"
+  }
+ ]
+}
